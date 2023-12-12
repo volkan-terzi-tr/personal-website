@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up a background image for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0; /* Remove default margin */
+}
+
+/* Style the header for a clean and centered look */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Make the h1 in the header stand out */
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Style the navigation links */
+nav {
+    text-align: center;
+    background-color: #555;
+}
+
+nav a {
+    display: inline-block;
+    padding: 14px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add a subtle hover effect to navigation links */
+nav a:hover {
+    background-color: #777;
+}
+
+/* Style the main sections for readability */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style section headings */
+section h2 {
+    color: #333;
+}
+
+/* Style lists within sections */
+section ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Add some spacing to contact information */
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Style links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add a subtle hover effect to links in the footer */
+footer a:hover {
+    text-decoration: underline;
+}
